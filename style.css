@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    font-family: "Segoe UI", Roboto, Arial, sans-serif;
+    background: #fff8f0;
+    
+   font-size: 20px;
+   background-color: #0b0c10;
+   color: white;
+    
+}
+
+
+.menu-list {
+    list-style: none; /* (Вже тут, щоб прибрати крапки) */
+    padding: 0;
+    margin: 0;
+    /* --- ДОДАЙ FLEX ТУТ --- */
+    
+   
+}
+
+header {
+    padding: 18px 24px;
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* --- ДОДАЙ FLEX ТУТ --- */
+   
+}
+.menu-list{
+    display: flex;
+}
+.menu-list a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.06);
+    margin-left: 8px;
+}
+
+.joost {
+    width: 50%;
+    max-width: 400px;
+    border-radius: 12px;
+    border: 4px solid #00f0ff;
+    box-shadow: 0 0 20px #00f0ff;
+}
+
+.order {
+    margin-top: 12px;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 10px;
+    background: #6b4f4f;
+    color: white;
+    cursor: pointer;
+}
+
+.hero {
+    padding: 20px;
+    /* --- ДОДАЙ FLEX ТУТ --- */
+  display: flex;
+  min-height: 70vh;
+  justify-content: space-around;
+  align-items: center;
+   
+}
+
+.footer {
+    padding: 20px;
+    height: 60px;
+    background: #f0e6e0;
+}
+.one{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.facts-list { 
+    list-style: none;
+   padding: 0; 
+}
+
+.face-card{
+    background: #1f2833 ;
+    border-left: 5px solid #ff007f;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    color: white;
+}
+.one-text{
+    width: 400px;
+}
+
+
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 90vh;
+    color: white;
+    background-image: url('2.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-shadow: 2px 2px 5px black;
+    margin-top: 20px;
+margin-bottom: 20px;
+}
+
+.hero h1 {
+    font-size: 50px;
+    margin-bottom: 0; 
+
+}
+
+.hero p {
+    font-size: 22px;
+   
+}
+
+.cta-button {
+padding: 15px 30px;
+color: white;
+text-decoration: none;
+margin-top: 25px;
+font-weight: bold;
+border-radius: 50px;
+box-shadow: 5px 5px 10px rgba;
+background-color: #28b485;
+}
+
+footer{
+    text-align: center;
+}
+
+
+
+
